@@ -1,7 +1,9 @@
 /**
- * Copyright 2015 Your Name <you@yourhost.com>
+ * Copyright 2015 Max Prakken <maxprakken3@hotmail.nl>
  *
- * @brief Description of My Awesome Game.
+ * @brief Description of A turn of events.
+ * A turn of events (ATOE) is a small dungeon crawler where your objective
+ * is to get back to the surface by fighting your way up.
  *
  * @file main.cpp
  *

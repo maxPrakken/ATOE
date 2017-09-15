@@ -8,8 +8,8 @@
 
 MyEntity::MyEntity() : Entity()
 {
-	this->addSprite("assets/square.tga");
-	this->sprite()->color = RED;
+	this->addSprite("assets/INA.tga");
+	//this->sprite()->color = RED;
 }
 
 MyEntity::~MyEntity()
@@ -18,7 +18,8 @@ MyEntity::~MyEntity()
 }
 
 void MyEntity::update(float deltaTime)
-{
+{ 
+	/*
 	// ###############################################################
 	// Rotate
 	// ###############################################################
@@ -26,4 +27,5 @@ void MyEntity::update(float deltaTime)
 	if (this->rotation.z > TWO_PI) {
 		this->rotation.z -= TWO_PI;
 	}
+	*/
 }
