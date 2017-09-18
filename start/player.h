@@ -2,6 +2,7 @@
 #define PLAYER_H
 
 #include <rt2d/entity.h>
+#include <rt2d/input.h>
 
 class Player : public Entity {
 public:
@@ -11,6 +12,7 @@ public:
 	virtual void update(float deltaTime);
 
 private:
+	
 
 };
 

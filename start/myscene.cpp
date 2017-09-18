@@ -43,4 +43,26 @@ void MyScene::update(float deltaTime)
 	if (input()->getKeyUp(KeyCode::Escape)) {
 		this->stop();
 	}
+
+	playerMovement(deltaTime);
+}
+
+void MyScene::playerMovement(float deltaTime)
+{
+	if (input()->getKey(GLFW_KEY_W)) {
+		std::cout << "pressing W" << std::endl;
+		myPlayer->position.y -= moveSpeed * deltaTime;
+	}
+	
+	if (input()->getKey(GLFW_KEY_S)) {
+		myPlayer->position.y += moveSpeed * deltaTime;
+	}
+
+	if (input()->getKey(GLFW_KEY_A)) {
+		myPlayer->position.x -= moveSpeed * deltaTime;
+	}
+
+	if (input()->getKey(GLFW_KEY_D)) {
+		myPlayer->position.x += moveSpeed * deltaTime;
+	}
 }

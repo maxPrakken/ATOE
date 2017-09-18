@@ -2,7 +2,7 @@
 
 Player::Player() : Entity()
 {
-
+	
 }
 
 Player::~Player()
@@ -12,5 +12,6 @@ Player::~Player()
 
 void Player::update(float deltaTime)
 {
-
+	
 }
+
